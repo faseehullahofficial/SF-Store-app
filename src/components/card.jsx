@@ -9,7 +9,7 @@ const Card = () => {
     <div className="product-list">
       {productsData.map((product) => (
 
-        <div key={product.id} className="product-card">
+        <div key={product.id} className="product-card">``
 
           <img  src={product.image} alt={product.title} />
 
